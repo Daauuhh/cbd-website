@@ -3,12 +3,13 @@
 <head>
 	<meta charset="utf-8">
 	<title>HCH FRANCE</title>
-	<link rel="stylesheet" type="text/css" href="design/default.css">
-	<link rel="icon" type="image/pngn" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="src/css/main.css">
+	<link rel="stylesheet" type="text/css" href="src/css/reset.css">
+	<link rel="icon" type="image/pngn" href="src/images/icons/favicon.png"><!-- il faut un .ico -->
 </head>
 <body>
 
-	<?php include('src/header.php'); ?>
+	<?php include('src/php/header.php'); ?>
 	
 	<section>
 		<div id="login-body">
@@ -25,6 +26,6 @@
 		</div>
 	</section>
 
-	<?php include('src/footer.php'); ?>
+	<?php include('src/php/footer.php'); ?>
 </body>
 </html>
