@@ -5,6 +5,7 @@
 	<title>HCH FRANCE</title>
 	<link rel="stylesheet" type="text/css" href="src/css/main.css">
 	<link rel="stylesheet" type="text/css" href="src/css/reset.css">
+	
 	<link rel="icon" type="image/pngn" href="src/images/icons/favicon.png"><!-- il faut un .ico -->
 </head>
 <body>
@@ -27,5 +28,6 @@
 	</section>
 
 	<?php include('src/php/footer.php'); ?>
+	
 </body>
 </html>

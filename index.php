@@ -1,32 +1,66 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>HCH CBD FRANCE</title>
-	<link rel="stylesheet" type="text/css" href="src/css/main.css">
-	<link rel="stylesheet" type="text/css" href="src/css/reset.css">
-	<link rel="icon" type="image/pngn" href="src/images/icons/favicon.png"><!-- il faut un .ico -->
-</head>
-<body>
+<?php require('src/php/header.php'); ?>
+	<body>
+	<div class="banniere"><a href="#"><img class=img-responsive class=logo src="src/images/icons/logo-newreso.png"   alt="logo"></a> </div>
+		
+	<div class="container">
+<!--CAROUSEL-->
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="src/images/carousel/cbd1.jpg" class="d-block w-100" alt="cbd1">
+    </div>
+    <div class="carousel-item">
+      <img src="src/images/carousel/cbd2.jpg" class="d-block w-100" alt="cbd2">
+    </div>
+    <div class="carousel-item">
+      <img src="src/images/carousel/cbd3.jpg" class="d-block w-100" alt="cb3">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 
-	<?php require('src/php/header.php'); ?>
-	
-	<section>
-		<div id="login-body">
-				<h1>S'identifier</h1> 
+</div>	
+ 
 
-				<form method="post" action="index.php">
-					<input type="email" name="email" placeholder="Votre adresse email" required />
-					<input type="password" name="password" placeholder="Mot de passe" required />
-					<button type="submit">S'identifier</button>
-					<label id="option"><input type="checkbox" name="auto" checked />Se souvenir de moi</label>
-				</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 			
-
-				<p class="grey">Première visite sur HCH France ? <a href="inscription.php">Inscrivez-vous</a>.</p>
+			<section>
+				<p>bla bla bla</p>
+				
+				<p>blablabla</p>
+			</section>
 		</div>
-	</section>
-
-	<?php require('src/php/footer.php'); ?>
-</body>
+		<?php require('src/php/footer.php'); ?>
+	</body>
 </html>

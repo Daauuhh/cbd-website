@@ -1,0 +1,71 @@
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif !important;
+    background-color:rgba(223, 230, 233,1.0);
+    
+}
+
+.navbar li{
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center;
+
+}
+
+p{
+    font-size: 70px;
+}
+
+.collapse {
+    margin-left: 20%;
+    
+    
+}
+
+.collapse a{
+    margin: 0 25px;
+}
+
+.banniere{
+    
+    height: 200px;
+    
+    background:  url(../images/ban.png);
+    border: 1px white solid ;  
+    background-size: cover; 
+}
+
+.banniere a{
+    display: flex;
+    
+    justify-content: center;
+    padding-top: 10px;
+}
+.container{
+    width: 80%;
+}
+
+
+
+#carouselExampleIndicators{
+    display: block;
+    width: 80%;
+}
+
+
+
+
+/* RESPONSIVE */
+
+
+@media only screen and (max-width: 500px){
+    
+    .logo{
+        width: 20px;
+    }
+
+}
+
