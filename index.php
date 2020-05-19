@@ -9,7 +9,7 @@
 </head>
 <body>
 
-	<?php include('src/php/header.php'); ?>
+	<?php require('src/php/header.php'); ?>
 	
 	<section>
 		<div id="login-body">
@@ -27,6 +27,6 @@
 		</div>
 	</section>
 
-	<?php include('src/php/footer.php'); ?>
+	<?php require('src/php/footer.php'); ?>
 </body>
 </html>
