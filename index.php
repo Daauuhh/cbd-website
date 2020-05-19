@@ -13,7 +13,7 @@
 	
 	<section>
 		<div id="login-body">
-				<h1>S'identifier</h1>
+				<h1>S'identifier</h1> 
 
 				<form method="post" action="index.php">
 					<input type="email" name="email" placeholder="Votre adresse email" required />
