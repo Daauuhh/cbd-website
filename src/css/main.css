@@ -1,40 +1,82 @@
 
 
-
+header{
+    height: 100%;
+}
 
 body{
+    
     font-family: 'Roboto', sans-serif !important;
-    background-color:rgba(223, 230, 233,1.0);
+    
+    background: url("../images/background/left.png")  left no-repeat fixed ,
+                url("../images/background/right.png") right no-repeat fixed;  
+                background-color:rgba(223, 230, 233,1.0);            
+}
+
+.title-box{
+    
+    margin: 20px 0;
+    font-size: 40px;
+    width: max-content;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background-color:rgba(245, 246, 250,0.6) ;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0,0.5);
+}
+
+section p {
+    font-size: 22px;
+    
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 8px;
+    background-color:rgba(245, 246, 250,0.6) ;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0,0.5);
+    margin-bottom: 20px;
+}
+
+.liseret{
+    width: 50%;
+    height:2px;
+    border: 1px rgba(0, 0, 0,0.5) solid;
+    /*background-color: rgba(0, 0, 0,0.5);*/
+}
+
+.card-contain div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
     
 }
 
-.navbar li{
-    display: flex !important;
-    justify-content: center !important;
-    text-align: center;
+
+
+
+
+
+.form-inline{
+    position: absolute right;
 
 }
 
-p{
-    font-size: 70px;
-}
+
 
 .collapse {
-    margin-left: 20%;
+    margin-left: 11%;
     
     
 }
 
-.collapse a{
-    margin: 0 25px;
-}
+
 
 .banniere{
     
     height: 200px;
     
     background:  url(../images/ban.png);
-    border: 1px white solid ;  
+    
     background-size: cover; 
 }
 
@@ -43,9 +85,18 @@ p{
     
     justify-content: center;
     padding-top: 10px;
+
+    
+}
+
+.login,.basket{
+    
+    transform: translate(0,-7px)
 }
 .container{
-    width: 80%;
+    width:80%;
+    
+    
 }
 
 
@@ -53,19 +104,21 @@ p{
 #carouselExampleIndicators{
     display: block;
     width: 80%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
-
 
 
 
 /* RESPONSIVE */
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 993px){
     
     .logo{
         width: 20px;
     }
-
+    
 }
 
