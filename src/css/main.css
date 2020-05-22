@@ -15,7 +15,7 @@ body{
 
 .title-box{
     
-    margin: 20px 0;
+    margin: 10px 0;
     font-size: 40px;
     width: max-content;
     text-align: center;
@@ -25,10 +25,19 @@ body{
     box-shadow: 0px 3px 5px 0px rgba(0, 0, 0,0.5);
 }
 
+.bloc1{
+    margin: 60px;
+}
+
+
+
+
+
 section p {
     font-size: 22px;
     
     text-align: center;
+    
     padding: 20px 10px;
     border-radius: 8px;
     background-color:rgba(245, 246, 250,0.6) ;
@@ -37,10 +46,11 @@ section p {
 }
 
 .liseret{
+
     width: 50%;
     height:2px;
-    border: 1px rgba(0, 0, 0,0.5) solid;
-    /*background-color: rgba(0, 0, 0,0.5);*/
+    border: 1px rgba(0, 0, 0,0.3) solid;
+    margin:60px 0;
 }
 
 .card-contain div{
@@ -108,6 +118,59 @@ section p {
     margin-left: auto;
     margin-right: auto;
 }
+
+.card-contain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    border-radius: 8px;
+    background-color:rgba(245, 246, 250,0.6) ;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0,0.5);
+    
+}
+
+.card-boutique{
+    border: 1px rgba(0, 0, 0,0.3) solid;
+    border-radius: 8px;
+    
+}
+
+.rate{
+    display: block;
+    padding: 5px 0;
+    background: url(../images/icons/img_rateall.png) no-repeat;
+    background-size:150px;
+    background-position: center;
+    height: 40px;
+    
+}
+
+.card-comment{
+    padding: 5px 5px;
+    background-color: rgba(178, 190, 195,0.3)
+    
+}
+
+.nom{
+    font-weight: bold;
+    font-size: 1.2rem;
+
+}
+
+.card-date{
+    font-size: 0.8rem;
+    font-style: italic;
+}
+
+.comment{
+    font-size: 0.7rem;
+}
+
+
+
+
+
+
 
 
 
