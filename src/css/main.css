@@ -122,16 +122,18 @@ section p {
 .card-contain{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
     text-align: center;
     border-radius: 8px;
     background-color:rgba(245, 246, 250,0.6) ;
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0,0.5);
+    
     
 }
 
 .card-boutique{
     border: 1px rgba(0, 0, 0,0.3) solid;
     border-radius: 8px;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0,0.5);
     
 }
 
