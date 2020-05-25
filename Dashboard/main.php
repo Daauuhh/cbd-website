@@ -3,6 +3,11 @@
     //LECTURE
     $requete = $bdd->query('SELECT * FROM product');
 ?>
+
+
+
+
+
 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
         <thead>
                 <tr>

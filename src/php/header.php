@@ -11,10 +11,6 @@
 	
 </head>
 
-<header>
-<!-- NAV BAR BOOTSTRAP -->
-</header>
-
 
 
 
