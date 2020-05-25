@@ -1,7 +1,10 @@
-<div id="footer">
-<div class="wrap">
-
-    <p>HCH France, Fait avec avec LOVE</p>
+<footer>
+    <nav class="navbar fixed-bottom  navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">HCH France</a>
+            <p>Made with Love</p>
+    </nav>
+</footer>
 
 </div>
-</div>
+</body>
+</html>

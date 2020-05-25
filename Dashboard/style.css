@@ -4,26 +4,34 @@ ul{
     flex-direction: column;
     width: 260px;
     background-color:rgba(116, 185, 255,1.0) ;
-    height: 2000px;
+    /* need fix nav bar height */
+    height: 1200px; 
+    /* 
+    Tu es censé mettre cette valeur à 100% 
+    pour qu'elle prenne l'intégralité du navigateur
+    mais tu as un soucis de div quelques part je pense :)
+    */
     padding: 0;
-    /*text-align: center;*/
-    
 }
 
 ul li{
     padding: 10px 20px;
-    
 }
 
 ul a {
     color: cornsilk;
-    font-size: 1.1rem;
-    
+    font-size: 1.1rem; 
 }
 
 table{
     border: 1px solid black ;
-    margin: 10px 20px;
+    /* fix with auto margin */
+    margin: 40px auto;
+    /* -------------------- */
+}
+
+.table-responsive{
+     overflow: hidden !important;
 }
 
 .contenu{
@@ -31,7 +39,6 @@ table{
 }
 
 nav p{
-   /* transform: translateY(10px);*/
     color: cornsilk;
     margin: 0 50px;
 }
@@ -46,7 +53,4 @@ nav p{
 }
 .addproduct::before{
     background-image: url(/src/images/icons/add.png);
-}
-
-    
 }
