@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Ajout</title>
+    <link rel="stylesheet" href="styleadd.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="test.html">HCH Dashboard</a> 
+           
+        <a class="nav-link mx-auto" href="#"><img class="login" src="../src/images/icons/img_loginblanc.png" width="20px" alt="login"> </a>
+    </nav>      
+    </header>
+
+    
+
+    <div class="contenu">
+
+        <ul class="nav_right">
+            <li><a href="index.php">Liste produits</a></li>
+            <li><a class="addproduct" href="addProduct.php"> Ajouter produits</a></li>
+            <li><a class="removeproduct" href="removeproduct.php">Supprimer produits</a></li>
+        </ul>      
+    
+
+    
+
+
+        
+        <form>
+            <h1>DASHBOARD - Ajouter produit</h1>
+            <div class="formborder">
+            <div class="form-group">
+              <label for="name">Nom</label>
+              <input type="text" class="form-control" id="nameproduct"  >
+              
+            </div>
+                <div class="form-group">
+                <label for="price">Prix</label>
+                <input type="text" class="form-control" id="price" placeholder="$" >
+                </div>
+
+                <div class="form-group">
+                    <label for="weight">Poid</label>
+                    <input type="text" class="form-control" id="weight" placeholder="g" >
+                </div>
+
+                <div class="form-group">
+                    <label for="description">Description</label>
+                    <input type="text" class="form-control" id="description"  >
+                </div>
+
+                <div class="form-group">
+                    <label for="category">Categorie</label>
+                    <input type="text" class="form-control" id="category"  >
+                </div>
+                
+                <div class="form-group">
+                    <label for="stock">Stock</label>
+                    <input type="text" class="form-control" id="stock"  >
+                </div>
+
+                <div class="form-group">
+                    <label for="picture">Photo</label>
+                    <input type="file" class="form-control" id="picture"  >
+                </div>
+
+
+                
+                <button type="submit" class="btn btn-dark">Ajouter</button>
+     </form>
+
+
+          
+        </div>
+
+
+
+
+
+        
+
+ <footer>
+     <nav class="navbar fixed-bottom  navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">HCH France</a>
+     <p>Made with Love</p>
+    
+    </nav>
+</footer>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>

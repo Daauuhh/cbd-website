@@ -25,28 +25,11 @@ ul a {
     font-size: 1.1rem; 
 }
 
-.table{
-    border: 1px solid black ;    
-    margin: 40px auto;
-    
-    table-layout: fixed;
-   
-}
 
-.tableau{
-    width: 100%;
-}
-
- th {
-    width: 10px;
-}
-
-.table-responsive{
-     overflow: hidden !important;
-}
 
 .contenu{
     display: flex ;
+  
     height: 100%;
     width: 100%;
 }
@@ -80,4 +63,30 @@ ul li .removeproduct::before:hover{
     text-decoration: none;
     color: black;
     transition: 0.5s;
+}
+
+form{
+    margin: 10px auto;
+    width: 80%;
+    
+
+}
+
+h1{
+    color: rgba(45, 52, 54,0.7);
+    margin: 400px auto ;
+    border: 1px solid rgba(223, 230, 233,1);
+    border-radius: 8px;
+    padding: 15px 20px;
+    background-color:rgba(223, 230, 233,0.7) ;
+}
+
+.formborder{
+    border: 1px solid rgba(223, 230, 233,1);
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+
+.login{
+    justify-content: right;
 }
