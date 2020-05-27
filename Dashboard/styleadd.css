@@ -87,6 +87,10 @@ h1{
     padding: 15px 20px;
 }
 
-.login{
-    justify-content: right;
+
+
+
+.nav-link{ 
+    display: inline !important;
+    margin-right: 75px;
 }
