@@ -1,0 +1,16 @@
+.modal-header{
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+body{
+    align-items: center;
+}
+
+.modal-body h2{
+    text-align: center; 
+    margin:30px 0 ;   
+}
+
+.bouton {
+    text-align: center;
+}
