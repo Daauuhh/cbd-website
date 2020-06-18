@@ -102,13 +102,28 @@ En achetant nos fleurs de CBD, nos huiles, nos résines, nos concentrés ou nos 
 Nous privilégions également des emballages qui vous permettent à la fois une bonne conservation du produit pour préserver toutes les propriétés du CBD et un dosage précis pour bénéficier de tous ses bienfaits.<br>
 En maîtrisant le dosage de CBD consommé à votre sensibilité et à vos besoins, vous êtes sûrs que les cannabinoïdes vous apporteront l’état de relaxation et d’apaisement voulu</p>
 </section>
-
-
-
-
-      </div>
- 
+      </div> 
 </div>
-		<?php require('src/php/footer.php'); ?>
+
+<div id="bandeau"  class="rgpd">Nous collectons ces données afin de gérer votre commande. Nous utilisons également votre adresse électronique pour vous adresser des publicités concernant des produits analogues à ceux que vous commandez. Si vous ne souhaitez pas recevoir de telles sollicitations, cliquez sur le bouton " Refuser " ci-dessous :
+     <div class="boutons">
+      <button type="button" class="btn btn-primary" id="accept">Accepter</button>
+      <button type="button" class="btn btn-secondary" >Refuser</button>
+      <button type="button" class="btn btn-light" id="opencredits">En savoir plus</button>
+
+      
+    </div>
+    
+   
+  </div>
+
+
+
+   
+ 
+<script src="src/JS/testIp.js"></script>
+<footer>
+<?php require('src/php/footer.php'); ?>
+</footer>
 	</body>
 </html>
